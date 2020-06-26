@@ -12,7 +12,7 @@ class AdMobBanner extends Component {
   constructor() {
     super();
     this.handleSizeChange = this.handleSizeChange.bind(this);
-    this.handleAdFailedToLoad = this.handleAdFailedToLoad.bind(this);
+    /*this.handleAdFailedToLoad = this.handleAdFailedToLoad.bind(this);*/
     this.state = {
       style: {},
     };
