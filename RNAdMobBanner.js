@@ -52,7 +52,7 @@ class AdMobBanner extends Component {
         {...this.props}
         style={[this.props.style, this.state.style]}
         onSizeChange={this.handleSizeChange}
-        onAdFailedToLoad={this.handleAdFailedToLoad}
+        onAdFailedToLoad={()=>console.log('ad error')}
         ref={(el) => (this._bannerView = el)}
       />
     );
